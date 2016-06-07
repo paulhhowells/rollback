@@ -45,6 +45,10 @@ p img {
 }
 
 /* Base Elements */
+body {
+  background-color: #ccc;
+}
+
 button {
   margin: 0.2em; /* for focus outline */
   padding: 0.5em;
@@ -58,9 +62,6 @@ button {
 }
 
 /* Layout Styles */
-body {
-  background-color: #ccc;
-}
 .wrapper {
   width: 60em;
   margin: 0 auto;
@@ -80,6 +81,10 @@ body {
     width: auto;
     margin: 0 0;
   }
+}
+
+.wrapper--header {
+  background-color: #fff;
 }
 
 /* Components */
