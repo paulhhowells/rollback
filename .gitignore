@@ -1,0 +1,10 @@
+[Tt]humbs.db
+.Trashes
+.DS_Store
+.DS_Store?
+__*
+node_modules
+npm-debug.log
+.idea
+*.codekit
+.codekit*
