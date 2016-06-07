@@ -1,0 +1,23 @@
+body {
+  position : relative;
+}
+.rollback > .rollback-inner {
+  position: relative;
+
+  /* non-essential theming */
+  background-color: #ddd;
+}
+.rollback > .is-detached,
+.rollback > .is-detached.is-hidden,
+.rollback > .is-detached.is-visible {
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: top 0.4s ease-in-out;
+
+  /* non-essential theming */
+  background-color: #dee;
+}
+.rollback > .is-visible {
+  top: 0;
+}
