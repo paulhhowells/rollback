@@ -1,7 +1,7 @@
 /*
  * Rollback.
  */
-(function() {
+(function (window, document, $, undefined) {
   'use strict';
 
   // Todo:
@@ -30,7 +30,7 @@
   // On ready.
   $(function () {
     $window = $(window);
-    $panel = $('.wensleydale');
+    $panel = $('.rollback');
     $panelInner = $panel.wrapInner('<div/>').children();
 
     updatePanelHeight();
@@ -141,4 +141,4 @@
         .removeClass(css.isVisible);
     }, 0);
   }
-}());
+})(window, document, jQuery);
